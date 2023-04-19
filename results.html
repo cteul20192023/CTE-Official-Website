@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTE Official Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/cte_logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="results.html">RESULTS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Results</h1>
+    </section>
+
+    <!---------- results ----------->
+
+    <section class="results">
+      <h1>Results We Released</h1>
+      <p>
+        <html>
+          <head>
+            <title>Title of the document</title>
+            <style>
+              .button {
+                display: inline-block;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                color: #ffffff;
+                background-color: #7aa8b7;
+                border-radius: 6px;
+                outline: none;
+                transition: 0.3s;
+              }
+              .button:hover {
+                background-color: #c2c7c7;
+              }
+            </style>
+          </head>
+          <body>
+            <a
+              class="button"
+              href="https://cteul20192023.github.io/cte-website/"
+              >Click Here For Past Entrance Results</a
+            >
+          </body>
+        </html>
+        <!--Some Sections were removed-->
+      </p>
+    </section>
+
+    <!---------- Facilities ---------->
+
+    <section class="facility">
+      <h1>Our Collaborators</h1>
+      <p>There are other collegues the work in colaboration with the CTE.</p>
+      <div class="row">
+        <div class="facility-col">
+          <img src="images/BFO.jpg" />
+          <h3>The UL BFO</h3>
+          <p>
+            The UL Business and Finance Office and The UL Internal Audit
+            Department work along with the CTE to verify the Financial documents
+            of the candidates during entrance registion.
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="images/dataentry.jpg" />
+          <h3>The Data Entry Clerks</h3>
+          <p>
+            The Data Entry Clerks are responsible for transferring data from
+            paper <br />
+            formats into computer file systems. Their transfer of data happens
+            <br />
+            manually by recording the information provided by the candidates.<br />
+            They type in candidates' information and create spreadsheets, <br />
+            verifying them against source documents at different stages during
+            the process.
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="images/TestingCommittee.jpg" />
+          <h3>The UL Tesing Committee</h3>
+          <p>
+            The Testing Committee which reports to the administration through
+            the President of the University, provides oversight and policy
+            direction for the Center for Testing and Evaluation. This committee
+            is appointed by the President of the University headed by a
+            chairman. The committee approves all plans and actions of the CTE,
+            following a review and critical scrutiny of said plans and
+            activities. The committee ensures that all tests and tests related
+            activities are implemented with a high degree of transparency and
+            integrity, in the midst of a highly integrity challenged society.
+            The committee sets the standard and approves the final result of all
+            entrance exams administered by the CTE.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Regular Office Hours are: 8:00 AM to 4:00 PM from Monday – Friday
+        <br />and 9am to 12 noon on Saturday!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      This Website is developed with <i class="fa fa-heart-o"></i> by the ED of
+      the UL CTE!
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

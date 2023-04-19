@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTE Official Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/cte_logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="results.html">RESULTS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Mission & Our Vision For 2027</h1>
+    </section>
+
+    <!---------- Blog Page Content ---------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/v1.png" />
+          <h2>Our Mission</h2>
+
+          <p>
+            The Center for Testing & Evaluation is an essential part of the
+            fabric of the University of Liberia and continues to serve a vital
+            role in the University. The CTE is the Testing House of the
+            University of Liberia, with a mission to deliver quality-testing
+            services conducive to graduates and prospective students. Highly
+            qualified testing professionals administer all tests and adhere to
+            the recommended professional standards befitting local, national,and
+            international best practices regarding public examinations. The
+            staff makes every effort possible to maintain the validity and
+            credibility of all exams by promoting a secure and stress-free
+            testing environment for candidates.
+          </p>
+          <br />
+          <h2>Our Vision</h2>
+
+          <p>
+            In 2027, we envision a digitally stable, sound, secure, and
+            sustainable Center for Testing & Evaluation that enables all
+            candidates anywhere within Liberia or elsewhere to sit the UL
+            Entrance Exam or its Graduate & Professional School Aptitude Test.
+            Specifically, we envision a Testing Center grounded on its core
+            public service mission of delivering quality-testing services
+            conducive to graduates and prospective students and expanding that
+            mission to include the provision of digital test platform services
+            across Liberia. We envision a Testing Center is that efficient in
+            doing business, trustworthy, and possesses a high level of
+            integrity.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="blog-right">
+          <h3>CTE 2023 Calendar of Events</h3>
+          <div>
+            <span>First Entrence Registration</span>
+            <span><strong>May 22 to June 26</strong></span>
+          </div>
+          <div>
+            <span>First Entrance Date </span>
+            <span><strong>July 1</strong></span>
+          </div>
+          <div>
+            <span>First Aptitute Tests</span>
+            <span><strong>July 3 to July 19</strong></span>
+          </div>
+          <div>
+            <span>Publication of Results</span>
+            <span><strong>August 4</strong></span>
+          </div>
+          <div>
+            <span>Second Entrence Registration</span>
+            <span><strong>Aug. 7 to Sept. 9</strong></span>
+          </div>
+          <div>
+            <span>Second Entrance Date</span>
+            <span><strong>Sept. 16</strong></span>
+          </div>
+          <div>
+            <span>Second Aptitute Test</span>
+            <span><strong>Sept. 18 to Sept. 30</strong></span>
+          </div>
+          <div>
+            <span>Publication of Results</span>
+            <span><strong>October 20</strong></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Regular Office Hours are: 8:00 AM to 4:00 PM from Monday – Friday
+        <br />and 9am to 12 noon on Saturday!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      This Website is developed with <i class="fa fa-heart-o"></i> by the ED of
+      the UL CTE!
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
