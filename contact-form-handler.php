@@ -5,7 +5,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'https://cteul20192023.github.io';
+    $email_from = 'https://cteul20192023.github.io/CTE-Official-Website/contact.html';
 
     $email_subject = "New Form Submission";
     
