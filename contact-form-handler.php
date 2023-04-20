@@ -5,7 +5,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'msehinneh78@gmail.com';
+    $email_from = 'https://cteul20192023.github.io';
 
     $email_subject = "New Form Submission";
     
